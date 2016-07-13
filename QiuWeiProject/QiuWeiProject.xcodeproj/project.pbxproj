@@ -46,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AEE48CD1D3611AF00760106 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		1AF3AC631D2A5945003289C2 /* QiuWeiProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiuWeiProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF3AC671D2A5945003289C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1AF3AC691D2A5945003289C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +114,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AEE48CC1D36119600760106 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1AEE48CD1D3611AF00760106 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		1AF3AC5A1D2A5945003289C2 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +145,7 @@
 		1AF3AC651D2A5945003289C2 /* QiuWeiProject */ = {
 			isa = PBXGroup;
 			children = (
+				1AEE48CC1D36119600760106 /* Other */,
 				1AF3ACED1D2A7862003289C2 /* Tool */,
 				1AF3ACD41D2A7856003289C2 /* Category */,
 				1AF3AC691D2A5945003289C2 /* AppDelegate.h */,
@@ -497,6 +507,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/QiuWei/GitHub/QiuWeiProject/QiuWeiProject/QiuWeiProject/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = QiuWeiProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apple.QiuWeiProject;
@@ -508,6 +520,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/QiuWei/GitHub/QiuWeiProject/QiuWeiProject/QiuWeiProject/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = QiuWeiProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apple.QiuWeiProject;
